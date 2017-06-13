@@ -1,2 +1,2 @@
-# metrics-ehcache3
-metrics for ehcache3
+# metrics-druid
+metrics for druid
