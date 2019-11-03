@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.vindell</groupId>
 	<artifactId>metrics-ehcache3</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	
 	<name>Metrics Ehcache 3.x Integration</name>
 	<description>Metrics + Ehcache 3.x for Ehcache monitoring</description>
