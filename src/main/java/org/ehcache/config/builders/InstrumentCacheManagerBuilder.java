@@ -13,14 +13,11 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.codahale.metrics.ehcache3;
+package org.ehcache.config.builders;
 
-import org.ehcache.config.builders.CacheManagerBuilder;
+import org.ehcache.CacheManager;
 
-public class InstrumentCacheManagerBuilder extends CacheManagerBuilder {
-
-	private InstrumentCacheManagerBuilder() {
-		super();
-	}
-
+public class InstrumentCacheManagerBuilder<T extends CacheManager> extends CacheManagerBuilder<T> {
+ 
+	
 }
