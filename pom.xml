@@ -295,7 +295,7 @@
         <maven.version>3.9.16</maven.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!-- Dependency versions -->
-        <central-publishing-maven-plugin.version>0.11.0</central-publishing-maven-plugin.version>
+        <maven-central-publishing-plugin.version>0.11.0</maven-central-publishing-plugin.version>
         <ehcache3.version>3.8.1</ehcache3.version>
         <jacoco-maven-plugin.version>0.8.15</jacoco-maven-plugin.version>
         <junit-jupiter.version>5.11.4</junit-jupiter.version>
@@ -436,7 +436,7 @@
                         <!-- 发布插件：将制品发布到 Maven Central Portal -->
                         <groupId>org.sonatype.central</groupId>
                         <artifactId>central-publishing-maven-plugin</artifactId>
-                        <version>${central-publishing-maven-plugin.version}</version>
+                        <version>${maven-central-publishing-plugin.version}</version>
                         <extensions>true</extensions>
                         <configuration>
                             <publishingServerId>central</publishingServerId>
